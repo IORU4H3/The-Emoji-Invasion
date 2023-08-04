@@ -1,0 +1,17 @@
+{
+  "name": "The Emoji Invasion",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Préparez-vous à être envahi par des emojis! Cette extension remplace chaque mot par des emojis correspondants, transformant votre expérience de navigation en une explosion colorée de symboles amusants. Maintenant, vous pouvez enfin lire des articles entiers sans jamais avoir à déchiffrer une seule lettre!",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "smile16.png",
+    "32": "smile32.png",
+    "128": "smile128.png",
+    "512": "smile512.png"
+  },
+  "permissions": ["scripting", "activeTab", "webNavigation"],
+  "host_permissions": ["<all_urls>"]
+}
